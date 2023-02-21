@@ -1,0 +1,42 @@
+* {
+  margin: 0 auto;
+  padding: 15px;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  background: rgb(33, 39, 147);
+  background: radial-gradient(
+    circle,
+    rgba(33, 39, 147, 1) 0%,
+    rgba(47, 139, 140, 1) 100%
+  );
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  * {
+    padding: 10px 15px;
+  }
+}
