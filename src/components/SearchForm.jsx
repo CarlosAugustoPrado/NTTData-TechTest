@@ -5,10 +5,12 @@ import axios from "axios";
 import "./SearchForm.scss";
 
 const Search = () => {
+  // Hooks de state
   const searchTerm = useSelector((state) => state.search.searchTerm);
   const movie = useSelector((state) => state.search.movie);
   const dispatch = useDispatch();
 
+  //Axios para API
   const handleSearch = () => {
     axios
       .get("http://www.omdbapi.com/", {
