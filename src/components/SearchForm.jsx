@@ -13,7 +13,7 @@ const Search = () => {
   //Axios para API
   const handleSearch = () => {
     axios
-      .get("http://www.omdbapi.com/", {
+      .get("https://www.omdbapi.com/", {
         params: {
           apikey: "3bf995b5",
           t: searchTerm,
